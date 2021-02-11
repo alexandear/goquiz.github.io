@@ -1,4 +1,4 @@
-MarkWorker goroutine recursively scan all the objects and colors them into white(inaccessible), gray(pending), black(accessible). But finally they will only be black and white objcts.
+MarkWorker goroutine recursively scan all the objects and colors them into white(inaccessible), gray(pending), black(accessible). But finally they will only be black and white objects.
 In compile time, the compiler has already injected a snippet called write barrier to monitor all the modifications from any goroutines to heap memory.
 When "Stop the world" is performed, scheduler hibernates all threads and preempt all goroutines.
 Garbage collector will recycle all the inaccessible objects so heap or central can reuse.

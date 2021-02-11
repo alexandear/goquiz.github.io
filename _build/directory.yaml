@@ -5,8 +5,8 @@ sections:
     quizzes:
       - key: subslice-grow
         name: Subslice
-      - key: short-declairation
-        name: Short Declairation
+      - key: short-declaration
+        name: Short Declaration
       - key: interface-nil
         name: Nil Interfaces
       - key: map-ok-idiom
@@ -19,8 +19,8 @@ sections:
         name: Temporary Pointer
       - key: label-break
         name: Break Outer Loop
-      - key: global-varible
-        name: Global Varibles
+      - key: global-variable
+        name: Global Variables
       - key: defer-closefile
         name: Defer Stack
       - key: defer-panic

@@ -2,8 +2,8 @@ $(function () {
     $("textarea").each(function(){
         this.rows = this.value.split("\n").length
     })
-    $(".gq-anwser-btn").click(function () {
-        $(this).html($(this).html() == "Hide" ? "Answer" : "Hide").next(".gq-anwser").toggle()
+    $(".gq-answer-btn").click(function () {
+        $(this).html($(this).html() == "Hide" ? "Answer" : "Hide").next(".gq-answer").toggle()
     })
     $(".gq-run-btn").click(function () {
         var $this = $(this), $code, $output
